@@ -1,0 +1,13 @@
+.nav {
+  background-color: navy;
+  color: white;
+  text-align: center;
+}
+.card {
+  background-color: rgb(224, 68, 68);
+  color: black;
+  text-align: center;
+  margin: 2cm;
+  border-radius: 2cm;
+}
+

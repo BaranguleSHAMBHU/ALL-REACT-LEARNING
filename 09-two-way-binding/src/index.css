@@ -1,0 +1,71 @@
+/* Global reset (optional but recommended) */
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Button Styling */
+.btn {
+  background: linear-gradient(135deg, #9acd32, #7cb342);
+  color: #1f1f1f;
+  padding: 14px 36px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Button Hover */
+.btn:hover {
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+/* Button Active */
+.btn:active {
+  transform: scale(0.96);
+}
+
+/* Common input styles */
+.name,
+.email,
+.no {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 280px;
+  padding: 0 15px;
+  margin: 12px 0;
+  border-radius: 8px;
+  border: 2px solid #ccc;
+  font-size: 15px;
+  transition: all 0.25s ease;
+  background-color: #fff;
+}
+
+/* Hover effect */
+.name:hover,
+.email:hover,
+.no:hover {
+  border-color: #9acd32;
+}
+
+/* Focus effect */
+.name:focus,
+.email:focus,
+.no:focus {
+  outline: none;
+  border-color: #7cb342;
+  box-shadow: 0 0 0 4px rgba(124, 179, 66, 0.25);
+}
+
+/* Placeholder styling */
+.name::placeholder,
+.email::placeholder,
+.no::placeholder {
+  color: #999;
+  font-size: 14px;
+}
